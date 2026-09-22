@@ -1,0 +1,78 @@
+.flex-list {
+  display: flex;
+  gap: 20px;
+  height: 10em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: min-content;
+  padding: 10px;
+  overflow-x: auto;
+  scrollbar-width: auto;
+  overflow-y: hidden;
+}
+
+.gymnaste-disponibles,
+.gymnaste-inscrits {
+  padding: 10px;
+  grid-row: 3/11;
+  transition: 0.4s linear cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.gymnaste-disponibles h2,
+.gymnaste-inscrits h2 {
+  margin-bottom: 10px;
+}
+
+.gymnaste-disponibles h3,
+.gymnaste-inscrits h3 {
+  margin-bottom: 10px;
+}
+
+.gymnaste-disponibles {
+  grid-column: 1/7;
+}
+
+.gymnaste-inscrits {
+  grid-column: 7/-1;
+}
+
+.Collapsible {
+  grid-row: 1 / span 4;
+  grid-column: 1 / -1;
+  z-index: 20;
+}
+
+.Collapsible__trigger {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Collapsible__trigger span {
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.Collapsible__trigger span:hover {
+  background-color: var(--bg-300);
+}
+
+.Collapsible__trigger span svg {
+  fill: var(--accent-100);
+}
+
+.Collapsible__contentOuter {
+  background: linear-gradient(
+    0deg,
+    var(--bg-300) 0%,
+    var(--bg-200) 50%,
+    var(--bg-100) 100%
+  );
+}
+
+.add-btn span {
+  color: #ffffff;
+}

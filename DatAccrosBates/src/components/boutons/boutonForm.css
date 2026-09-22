@@ -1,0 +1,41 @@
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-button button {
+  background-color: var(--primary-100);
+  border: none;
+  color: var(--text-300);
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.form-button button:hover {
+  background-color: var(--primary-200);
+  color: var(--text-300);
+  transition: all 0.3s ease 0s;
+}
+
+.form-button button:active {
+  transform: scale(0.8);
+  transition: all 0.3s ease 0s;
+}
+
+.form-button button:disabled {
+  background-color: var(--primary-300);
+  color: var(--text-300);
+  cursor: not-allowed;
+}
+
+.form-button .btn-supprimer {
+  background-color: rgb(219, 28, 28);
+}
+
+.form-button .btn-supprimer:hover {
+  background-color: rgba(219, 28, 28, 0.565);
+}

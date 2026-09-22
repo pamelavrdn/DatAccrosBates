@@ -1,0 +1,32 @@
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+  color: var(--text-100);
+}
+
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root {
+  color: var(--text-100);
+}
+
+.css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon {
+  color: var(--text-100);
+}
+
+.css-1vooibu-MuiSvgIcon-root {
+  color: var(--text-200);
+}
+
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: var(--primary-200);
+}
+
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root.Mui-selected:hover {
+  background-color: var(--primary-100);
+}
+
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected {
+  background-color: var(--primary-100);
+}
+
+.css-flbe84-MuiDayCalendar-weekContainer
+  .css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root {
+  color: var(--text-100);
+}

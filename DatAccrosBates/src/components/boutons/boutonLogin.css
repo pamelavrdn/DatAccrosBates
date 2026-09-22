@@ -1,0 +1,58 @@
+.bouton-login {
+  font-weight: bold;
+  font-size: 150%;
+  width: auto;
+  background-color: var(--text-100);
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0.6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.bouton-login .texte {
+  color: var(--bg-200);
+}
+
+/* Pour les effets de survol */
+.bouton-login span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: var(--text-200);
+  border-radius: 50%;
+  transition: 0.6s ease;
+}
+
+.bouton-login span:nth-child(6) {
+  position: relative;
+}
+
+.bouton-login span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+.bouton-login span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+.bouton-login span:nth-child(3) {
+  transform: translate(-0.2em, 1.8em);
+}
+
+.bouton-login span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+.bouton-login span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+.bouton-login:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}

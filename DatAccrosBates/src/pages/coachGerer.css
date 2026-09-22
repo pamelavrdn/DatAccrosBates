@@ -1,0 +1,18 @@
+.ajout-modif {
+  display: flex;
+  gap: 20px;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  text-align: center;
+  padding: 17px;
+}
+
+.ajout-modif span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ajout-modif span.clicked,
+.ajout-modif span:hover {
+  color: var(--primary-200);
+}

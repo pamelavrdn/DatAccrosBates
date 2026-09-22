@@ -1,0 +1,21 @@
+.dashboard-sections {
+  grid-column: 1 / 12;
+  grid-row: 2 / 4;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1em;
+  margin-right: 1em;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+.dashboard-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  overflow: hidden;
+}

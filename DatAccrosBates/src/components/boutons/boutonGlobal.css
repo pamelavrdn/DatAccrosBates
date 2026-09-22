@@ -1,0 +1,48 @@
+.bouton-global {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  background: var(--primary-400);
+}
+
+.bouton-global::before,
+.bouton-global::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(30deg);
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.bouton-global::before {
+  left: -10px;
+  background: var(--accent-100);
+}
+
+.bouton-global::after {
+  right: -10px;
+  background: var(--accent-100);
+}
+
+.bouton-global:hover::before,
+.bouton-global:hover::after {
+  width: 80%;
+}
+
+.bouton-global:hover {
+  cursor: pointer;
+}
+
+.bouton-texte {
+  color: var(--text-300);
+  font-size: 16px;
+  transition: all 0.3s ease-in;
+  background-color: transparent;
+}

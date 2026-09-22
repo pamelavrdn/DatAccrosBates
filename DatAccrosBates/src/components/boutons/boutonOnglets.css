@@ -1,0 +1,40 @@
+/* Conteneur des onglets */
+.onglets {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Chaque bouton d'onglet */
+.bouton-onglet {
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  margin: 10px 15px;
+  font-size: 16px;
+  color: var(--primary-200);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Le trait sous le nom de l'onglet*/
+.barre-onglet {
+  height: 1.5px;
+  width: 0;
+  background-color: var(--primary-200);
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+/* Affichage du trait lors du focus, hover ou active */
+.bouton-onglet:hover .barre-onglet,
+.bouton-onglet:focus .barre-onglet,
+.bouton-onglet.active .barre-onglet {
+  opacity: 1;
+  width: 100%;
+}

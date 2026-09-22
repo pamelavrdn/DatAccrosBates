@@ -1,0 +1,185 @@
+.file-upload-label input {
+  display: none;
+}
+
+.file-upload-design svg {
+  color: var(--primary-200);
+  font-size: 80px;
+}
+
+.file-upload-label {
+  flex: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.file-upload-design {
+  flex: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+.ie-box-import .file-upload-design {
+  border: 3px dashed var(--text-100);
+  border-radius: 10px;
+}
+
+.browse-button {
+  background-color: var(--primary-100);
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: var(--primary-300);
+  transition: all 0.3s;
+}
+
+.browse-button:hover {
+  background-color: rgb(14, 14, 14);
+}
+
+.p-ie {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ie-box-import {
+  grid-column: 4 / -1;
+  grid-row: 2 / 12;
+  flex-direction: row !important;
+}
+
+.ie-box-export {
+  grid-column: 4 / -1;
+  grid-row: 2 / 12;
+}
+
+.ie-box-concours {
+  grid-column: 1 / 4;
+  grid-row: 5 / 12;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+  text-align: center;
+  padding: 17px;
+}
+
+.detail h2 span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.detail h2 span.clicked,
+.detail h2 span:hover {
+  color: var(--accent-100);
+}
+
+.file-and-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ie-box-file-upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ie-box-file-upload svg {
+  height: 30px;
+  width: auto;
+  color: var(--primary-200);
+}
+
+.ie-box-file-upload .p-ie {
+  font-size: 12px;
+}
+
+.file-upload-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  text-align: center;
+  width: 120px;
+  overflow-wrap: break-word;
+}
+
+.confirmer-importer {
+  width: 270px;
+  height: 50px;
+}
+
+.confirmer-exporter {
+  width: 220px;
+  height: 50px;
+}
+
+.ie-bouton-confirmer .bouton-global {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.bouton-close {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  transition: background-color 0.3s; /* Ajout de la transition */
+}
+
+.X {
+  content: "";
+  position: absolute;
+  width: 2em;
+  height: 1.5px;
+  transform: translateX(-50%) rotate(45deg);
+  background-color: var(--primary-200);
+  transition: transform 0.3s; /* Ajout de la transition */
+}
+
+.Y {
+  content: "";
+  position: absolute;
+  width: 2em;
+  height: 1.5px;
+  transform: translateX(-50%) rotate(-45deg);
+  background-color: var(--primary-200);
+  transition: transform 0.3s; /* Ajout de la transition */
+}
+
+.bouton-close:hover .X {
+  background-color: var(--primary-100);
+  transform: translateX(-50%) rotate(225deg); /* Rotation supplémentaire */
+}
+
+.bouton-close:hover .Y {
+  background-color: var(--primary-100);
+  transform: translateX(-50%) rotate(-225deg); /* Rotation supplémentaire */
+}
+
+.file-upload-design h1 {
+  font-size: 1.5rem; /* Taille de police adaptée */
+  word-break: break-word; /* Casser les mots longs pour éviter le débordement */
+  text-align: center; /* Centrer le texte */
+}
+
+.file-status {
+  text-align: center; /* Centrer le texte */
+}

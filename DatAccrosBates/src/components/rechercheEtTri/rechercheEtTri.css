@@ -1,0 +1,67 @@
+/* Conteneur pour la recherche et le tri */
+.filtre-tri {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Boutons radios */
+.radio-inputs {
+  display: flex;
+  border-radius: 8px;
+  background-color: var(--bg-300);
+  padding: 3px;
+  font-size: 14px;
+}
+
+/* Chaque bouton radio */
+.radio-inputs .radio {
+  flex: 1 1;
+}
+
+/* Cacher le style par défaut des boutons radios */
+.radio-inputs .radio input {
+  display: none;
+}
+
+/* Texte des boutons radios */
+.radio-inputs .radio .radio-span {
+  background-color: var(--bg-300);
+  outline: 2px solid var(--bg-300);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.15s ease-in-out;
+  z-index: 1;
+}
+
+/* Lorsque le bouton radio est sélectionné (et son texte) */
+.radio-inputs .radio input:checked + .radio-span {
+  background-color: var(--bg-100);
+  outline: 1px solid var(--bg-100);
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, outline 0.3s ease-in-out;
+  box-shadow: var(--text-200) 0px 0px 5px 0px;
+  z-index: 2;
+}
+
+/* Lorsque l'on essaie de cliqué sur le bouton déjà sélectionné */
+.radio-inputs .radio input:checked:active + .radio-span {
+  opacity: 0.9;
+}
+
+/*Input pour la recherche*/
+.recherche {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1.5px solid var(--bg-300);
+  outline: none;
+  background-color: var(--bg-100);
+  color: var(--text-100);
+}
+
+/* Au moment du clic sur la recherche */
+.recherche:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,19 @@
+.form-message {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form-message .valid,
+.form-message .invalid {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.form-message .valid {
+  color: rgb(76, 175, 80);
+}
+
+.form-message .invalid {
+  color: rgb(244, 67, 54);
+}

@@ -1,0 +1,101 @@
+.carte-container {
+  grid-column: 7/12;
+  grid-row: 2/11;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--primary-100);
+  border-radius: 30px;
+  max-height: 40vh;
+  animation: slideInFromRight 0.7s ease forwards;
+}
+
+.carte-photo-infos {
+  display: flex;
+  gap: 30px;
+  height: 60%;
+}
+
+.carte-photo {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  width: 40%;
+}
+
+.carte-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.carte-infos-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: auto;
+  scrollbar-width: thin; /* Largeur de la barre de défilement */
+  scrollbar-color: var(--primary-300) transparent;
+}
+
+.infos-groupe {
+  display: flex;
+  gap: 15px;
+}
+
+.label-input {
+  color: #ffffff;
+}
+
+.carte-footer {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-label {
+  color: var(--primary-300);
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  align-self: center;
+}
+
+.code-barre {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 2em;
+  background:
+      /* Dégradé pour simuler les lignes du code-barres */ repeating-linear-gradient(
+    to right,
+    var(--primary-100),
+    white 10px,
+    var(--primary-100) 2px,
+    var(--primary-100) 4px
+  );
+  align-items: center;
+}
+
+.code-barre-input {
+  background-color: var(--primary-100);
+  border-radius: 10px;
+  width: auto;
+  min-width: 80%;
+  max-width: 100%;
+  overflow-x: auto;
+  height: 60%;
+  color: var(--primary-300);
+  letter-spacing: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

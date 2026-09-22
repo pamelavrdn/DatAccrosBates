@@ -1,0 +1,7 @@
+﻿noFSG;nom;prenom;dateDeNaissance;sexe;categorie;catUp;societe;noEquipe
+50101;Guillou;Monique;14.4.2013;F;6;true;Lancy
+75219;Courtois;Alex;14.8.2004;F;6;false;Pregny-Chambésy;1
+47718;Le Goff;Véronique;4.6.2015;F;2;true;Pregny-Chambésy
+10214;Colin;Benjamin;28.2.2000;M;H;true;Versoix;2
+43749;Normand;Claudine;22.11.2013;F;3;false;Versoix
+99451;Pelletier;Paul;5.3.2001;M;3;false;Versoix

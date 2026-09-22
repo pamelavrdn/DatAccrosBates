@@ -1,0 +1,79 @@
+.filterUI {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.filter-flex {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.add-btn span,
+.remove-btn span,
+.move-btn span {
+  color: #ffffff;
+}
+
+.MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: translate(12px, 10px) scale(1);
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  width: 1px;
+  color: var(--text-100);
+  background-color: var(--bg-100);
+}
+
+.MuiTableRow-root .MuiTableCell-head {
+  background-color: var(--bg-300);
+  color: var(--text-100);
+}
+
+.MuiTableCell-root .MuiTableCell-head {
+  padding: 2px;
+  display: flex;
+}
+
+.MuiButtonBase-root.MuiTableSortLabel-root.MuiTableSortLabel-active {
+  color: var(--text-100);
+}
+
+.MuiButtonBase-root.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active
+  .MuiTableSortLabel-icon {
+  color: var(--text-100);
+}
+
+.MuiInputBase-input .MuiFilledInput-input {
+  color: var(--text-100);
+}
+.MuiInputBase-root .MuiFilledInput-input {
+  color: var(--text-100);
+}
+
+.MuiInputBase-root
+  .MuiSvgIcon-root.MuiSelect-icon.MuiTablePagination-selectIcon {
+  color: var(--text-100);
+}
+
+.MuiInputBase-root .MuiSvgIcon-root.MuiSelect-icon {
+  color: var(--text-100);
+}
+
+.gymnaste-inscrits .cat {
+  color: rgb(79, 79, 255);
+  font-weight: bold;
+}
+
+.gymnaste-inscrits .catSup {
+  color: rgb(5, 153, 0);
+  font-weight: bold;
+}

@@ -1,0 +1,183 @@
+/* emplacement box des gymnastes */
+.box-gymnaste {
+  grid-column: 1/4;
+  grid-row: 2/12;
+}
+
+/* emplacement box des concours et résultats*/
+.box-concours-resultat {
+  grid-column: 4/-1;
+  grid-row: 2/12;
+  flex-direction: row !important;
+}
+
+/* liste des concours */
+.concours {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  border-right: 5px double var(--bg-300);
+  gap: 10px;
+}
+
+/* affichage des résultats */
+.resultats {
+  flex: 60%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  /*animation: SlideInFromRight 0.7s ease forwards;*/
+}
+
+/* tri par date */
+.tri-date {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  white-space: nowrap;
+  margin: 0 0 10px 5px;
+}
+
+.tri-date:hover {
+  color: var(--text-200);
+}
+
+/* Titre des résultats */
+.resultats-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+/* les résultats de tous les engins */
+.resultats-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* total et classement */
+.resultats-total {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*carte des engins et résultats*/
+.carte-engin {
+  background: var(--bg-300);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3px;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+  width: 48%;
+  color: var(--text-200);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+/*résultats des engins */
+.carte-engin .resultat {
+  background: var(--bg-200);
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+/*carte pour total et classement*/
+.carte-total-classement {
+  color: var(--text-200);
+  background: var(--bg-300);
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.58px;
+  display: flex;
+  gap: 10px;
+}
+
+.carte-total-classement .texte {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px 0;
+  gap: 3px;
+  width: 100%;
+}
+
+.carte-total-classement .bordure {
+  border-left: 1px solid var(--text-100);
+  padding-left: 5px; /* la moitié du gap de carte-total-classement */
+  margin-left: -1px; /* la taille de la bordure pour réajuster l'espace entre les 2 div texte */
+}
+
+.carte-total-classement .classement-icon {
+  display: flex;
+  align-items: center;
+}
+
+.medal-icon {
+  position: absolute;
+  font-size: 30px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+/* couleurs des médailles */
+.medal-icon .gold {
+  color: gold;
+}
+.medal-icon .silver {
+  color: #969696;
+}
+
+.medal-icon .bronze {
+  color: #cd7f32;
+}
+
+.medal-icon .distinction {
+  color: #7e7e7e;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+@keyframes SlideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes SlideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
