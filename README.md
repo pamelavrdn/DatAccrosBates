@@ -81,7 +81,7 @@ Une fois le serveur démarré, ouvrez votre navigateur et accédez à l'URL [htt
 Contactez l'équipe pour les accès de test.
 
 
-## Back-end 📡
+## Back-end
 
 1. **Firebase :**
 
