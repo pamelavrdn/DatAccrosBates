@@ -1,10 +1,10 @@
-# Projet sur mandat_64-56 - DatAccrosBates 📚
+# Projet sur mandat_64-56 - DatAccrosBates
 
-## Application Web React 💻🌐
+## Application Web React
 
 Ce projet est une application Web développée en utilisant React. 
 
-### But et Fonctionnement de l'application 🎯
+### But et Fonctionnement de l'application
 Il s'agit d'une application pour gérer :
 - Les gymnastes
 - Les coachs
@@ -13,7 +13,7 @@ Il s'agit d'une application pour gérer :
 
 Sauvegarder les résultats des gymnastes, et les consulter.
 
-## Prérequis ✅❗
+## Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre machine :
 
@@ -31,12 +31,12 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre
     - ``` npm -v ```
     - ``` git -v ```
 3. Un numéro de version apparait comme : V20.11.0 / 10.4.0 / git version 2.45.0.windows.1
-4. Tout est bon 👍🤙
+4. Tout est bon
 
     <img src="PSM_DatAccrosBates\src\readme\readme-version.png" alt="Vérifier les versions installé" width="30%"  style="border-radius: 10px;">
 
 
-## Installation ➰
+## Installation
 
 1. **Clonage du projet :**
 
@@ -65,7 +65,7 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre
 
 
 
-## Lancement de l'application 🚀
+## Lancement de l'application
 
 Une fois les dépendances installées et la configuration terminée, vous pouvez lancer l'application en utilisant la commande suivante :
 
@@ -88,7 +88,7 @@ Contactez l'équipe pour les accès de test.
    Pour utiliser la console de Firebase, vous devez être autorisé à consulter le projet et vous rendre 
    sur [console Firebase du projet](https://console.firebase.google.com/project/dataccrobates/overview?hl=fr).
 
-## Autres scripts disponibles 📜
+## Autres scripts disponibles
 
 
 - **Tests unitaires et d'intégration :** 
