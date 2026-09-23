@@ -33,7 +33,7 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre
 3. Un numéro de version apparait comme : V20.11.0 / 10.4.0 / git version 2.45.0.windows.1
 4. Tout est bon
 
-    <img src="PSM_DatAccrosBates\src\readme\readme-version.png" alt="Vérifier les versions installé" width="30%"  style="border-radius: 10px;">
+    <img src="DatAccrosBates\src\readme\readme-version.png" alt="Vérifier les versions installé" width="30%"  style="border-radius: 10px;">
 
 
 ## Installation
